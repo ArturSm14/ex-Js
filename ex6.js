@@ -1,9 +1,8 @@
-let v = false
-let f = false
+let v = true
+let f = true
 
-if (v || f === true) {
+if (v === true && f === true) {
     console.log("Verdadeiro")
 } else {
-    v || f === false
     console.log("Falso")
 }
